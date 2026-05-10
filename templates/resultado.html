@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+</head>
+<body>
+    <img src="/static/uploads/imagem.jpg">
+    <h1>Resultado da Classificação</h1>
+    <h2>
+        Classe prevista:
+        {{ resultado.class_name }}
+    </h2>
+
+    <h3>
+        Confiança:
+        {{ resultado.confidence }}%
+    </h3>
+    <h2>Probabilidades:</h2>
+
+    <ul>
+
+    {% for item in resultado.probabilities %}
+
+        <li>
+            {{ item.class }}:
+            {{ item.probability }}%
+        </li>
+
+    {% endfor %}
+
+    </ul>
+</body>
+</html>
