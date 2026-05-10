@@ -1,0 +1,5 @@
+virtual/
+__pycache__/
+*.pyc
+dataset_treino.zip
+.ipynb_checkpoints/
