@@ -79,11 +79,11 @@ Notebook utilizado:
 # Executando com Docker
 Build da imagem
 ```bash
-docker build -t projetoia .
+docker build -t <nome do container> .
 ```
 Executar container
 ```bash
-docker run -p 5000:5000 projetoia
+docker run -p 5000:5000 <nome do container>
 ```
 
 # Acessando a aplicação
