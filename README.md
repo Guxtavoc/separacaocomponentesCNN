@@ -74,7 +74,7 @@ Dataset utilizado:
 O treinamento do modelo foi realizado utilizando Google Colab devido ao suporte a GPU.
 
 Notebook utilizado:
-[https://colab.research.google.com/](https://colab.research.google.com/drive/1lxu8fkx9mdch8rqOTtrLRryUXVjSiPfT#scrollTo=PDL6_MtMHIAa)
+[https://colab.research.google.com/](https://colab.research.google.com/drive/13jT1mk8LSaGAdhm3m24PGbeQFeUusiD1#scrollTo=CbawkIUtDZPK)
 
 # Executando com Docker
 Build da imagem
